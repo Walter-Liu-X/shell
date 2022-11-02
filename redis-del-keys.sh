@@ -1,11 +1,11 @@
 
 #!/bin/bash
 ##redis主机IP
-host=$1
+host=harix-redis-haproxy
 ##redis端口
-port=$2
+port=6379
 ##key模式
-pattern=$3
+pattern=robot-ds-info:*
 ##游标
 cursor=0
 ##退出信号
